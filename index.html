@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/styles.css">
+    <script type="text/javascript" src="./src/index.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -18,9 +19,9 @@
             <li><a href="#home" class="nav-item">Home</a></li>
             <li><a href="#about" class="nav-item">About</a></li>
             <li><a href="#services" class="nav-item">Services</a></li>
-            <li><a href="book-now" class="nav-item">Book Now</a></li>
-            <li><a href="review" class="nav-item">Review</a></li>
-            <li><a href="contcs" class="nav-item">contact</a></li>
+            <li><a href="#book-now" class="nav-item">Book Now</a></li>
+            <li><a href="#review" class="nav-item">Review</a></li>
+            <li><a href="#contacts" class="nav-item">contact</a></li>
 
 
          </ul>
@@ -44,11 +45,26 @@
         
     </div>
     <!--book now container-->
-    <div id="book-now" class="appointment">
-        <p>Click the link to book your appointment now and let's create a beautiful and customized look that suits you perfectly!</p><br>
-        <button class="book">Book Now</button>
-    </div>
-    <!--calender container-->
+    <section class="appointment">
+        <div id="book-now">
+            <p>Click the link to book your appointment now and let's create a beautiful and customized look that suits you perfectly!</p><br>
+            <button class="book">Book Now</button>
+        </div>
+        <!--calender container-->
+        <div id="calender-container" class="calender-wrapper">
+            <div id="header"></div>
+            <div id="weekdays">
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thur</div>
+                <div>Fri</div>
+                <div>Sat</div>
+                <div>Sun</div>
+    
+            </div>
+        </div>
+    </section>
     <!--leave a review-->
     <div id="review" class="review-us">
         <h2>Review us</h2>
@@ -59,6 +75,6 @@
         </form>
     </div>
     <!--footer, contact us-->
-
+  
 </body>
 </html>

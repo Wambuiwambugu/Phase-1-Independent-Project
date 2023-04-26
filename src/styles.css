@@ -67,16 +67,24 @@ ul {
 .appointment {
     background-color: rgb(165, 5, 10);
     display: block;
+    align-items: center;
     justify-content: center;
+    min-height: 100vh;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: auto;
 }
-.appointment p {
-    color: white;
+.calender-wrapper {
+    width: 450px;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    
 }
+
 
 .review-us {
     display: block;
