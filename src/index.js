@@ -24,7 +24,19 @@ document.addEventListener("DOMContentLoaded",() => {
             day: 'numeric',
         })
         console.log(dateString)
-        const paddingDays = weekdays.indexOf(dateString.split(', ')[0])
+        const paddingDays = weekdays.indexOf(dateString.split(', ')[0]);
+        for(let i = 1; 1 <= paddingDays + daysInMOnth; i++){
+            const daySquare = document.createElement('div')
+            daySquare.classList.add('day');
+            if (i > paddingDays){
+                daySquare.innerText = i - paddingDays;
+                daySquare.addEventListener('click', () => console.log(clicked))
+            }
+            else{
+                daySquare.classList.add('padding');
+            }
+            
+        }
 
 
     }
