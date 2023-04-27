@@ -4,7 +4,7 @@
     {
       "id": 1,
       "name": "Hair Coloring",
-      "image_url": "./images/curly-red-fro.jpg",
+      "image_url": "./src/images/curly-red-fro.jpg",
       "description": "Change up your hair color with our expert coloring services.",
       "duration": "2 hours",
       "price": "5000ksh"
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Permanent and temporary locs",
-      "image_url": "/Users/wambuiwambugu/Development/moringa-code/phase-1/Phase-1-Independent-Project/src/images/womens-locs.jpg",
+      "image_url": "./src/images/womens-locs.jpg",
       "description": "Get started on your loc journey, oand maintain your locs. our stylists employ advanced techniques that ensure your locs start and stay keslthy and strong ",
       "duration": "2 hours",
       "price": "4000ksh"
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "name": "Bridal styling",
-      "image_url":"./images/afro-wedding.jpg",
+      "image_url":"./sec/images/afro-wedding.jpg",
       "description": "We provide bridal styling packages for a bride-to-be snd her bridsl party.book a consultation with us, and tell us your vision for your special day, and we will make it happen.",
       "duration": "2 hours",
       "price": "6000ksh"

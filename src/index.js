@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded",() => {
         let card = document.createElement('div');
         card.className = 'card'
         card.innerHTML = `
-          <img src="${service.image_url}">
+          <img src="${service.image_url}"/>
           <div class="content">
             <h4>${service.name}</h4>
             <p>${service.description}</p>
