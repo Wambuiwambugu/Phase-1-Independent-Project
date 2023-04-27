@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded",() => {
+    const baseUrl = 'https://my-json-server.typicode.com/Wambuiwambugu/Phase-1-Independent-Project/services'
+
     // create calender
     let nav = 0
     let booked = null
@@ -57,10 +59,37 @@ document.addEventListener("DOMContentLoaded",() => {
         //    loadCalender();
         //})
     }
+    //create services card
+    function renderOneService(service){
+        let card = document.createElement('div');
+        card.className = 'card'
+        card.innerHTML = `
+          <img src="${service.image_url}">
+          <div class="content">
+            <h4>${service.name}</h4>
+            <p>${service.description}</p>
+            <p>${service.duration}</p>
+            <p>${service.price}</p>
+          </div>
+        `
+        document.querySelector('#cardContainer').append(card)
+    }
+
+    function serviceCard(){
+        fetch('https://my-json-server.typicode.com/Wambuiwambugu/Phase-1-Independent-Project/services')
+        .then(res => res.json())
+        .then(data => {
+            data.forEach(service => renderOneService(service))
+        })
+
+    }
+    serviceCard()
     initializebtns();
     loadCalender();
     
     //create services card
+    
+
     
 })
 

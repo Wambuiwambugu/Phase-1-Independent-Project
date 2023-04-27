@@ -60,9 +60,21 @@ ul {
     font-size: 54px;
 }
 .services {
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
+}
+#cardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card {
+    display: block;
+    max-width: 300px;
+    box-shadow: #92a1d1;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
 .appointment {
     background-color: rgb(165, 5, 10);
@@ -133,6 +145,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
 }
+
 #reviewTextBox {
     width: 500px;
     padding: 10px;
