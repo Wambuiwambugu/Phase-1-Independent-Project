@@ -78,7 +78,7 @@ ul {
     width: auto;
 }
 .calender-wrapper {
-    display: none;
+    display: block;
     width: 770px;
     background: whitesmoke;
     border-radius: 10px;
@@ -132,6 +132,10 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+#reviewTextBox {
+    width: 500px;
+    padding: 10px;
 }
 
 

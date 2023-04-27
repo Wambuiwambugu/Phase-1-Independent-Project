@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded",() => {
             nav++;
             loadCalender();
         })
-        document.querySelector('#backbutton').addEventListener('click',() => {
-            nav--;
-            loadCalender();
-        })
+        //document.querySelector('#backbutton').addEventListener('click',() => {
+        //    nav--;
+        //    loadCalender();
+        //})
     }
     initializebtns();
     loadCalender();
