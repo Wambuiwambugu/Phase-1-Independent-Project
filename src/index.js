@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded",() => {
         })
         console.log(dateString)
         const paddingDays = weekdays.indexOf(dateString.split(', ')[0]);
-        for(let i = 1; 1 <= paddingDays + daysInMOnth; i++){
+        for(let i = 1; i <= paddingDays + daysInMOnth; i++){
             const daySquare = document.createElement('div')
             daySquare.classList.add('day');
             if (i > paddingDays){
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded",() => {
             else{
                 daySquare.classList.add('padding');
             }
-            
+            calender.appendChild(daySquare)
         }
 
 
