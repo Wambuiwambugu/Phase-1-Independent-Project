@@ -84,6 +84,29 @@ ul {
     margin: auto;
     
 }
+#weekdays {
+    width: 100%;
+    display: flex;
+    color: #247BA0;
+}
+#weekdays div {
+    width: calc(100% / 7);
+}
+#calender {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.day {
+    width: calc(100% /7);
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 .review-us {
