@@ -1,4 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 * {
     padding: 0;
@@ -45,6 +47,9 @@ ul {
 .nav-items .nav-item:hover {
     color:  rgb(243, 176, 7);
 }
+#myCanvas {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
 .container {
     min-height: 50vh;
     display: flex;
@@ -83,7 +88,6 @@ ul {
 .services h3 {
     font-size: 24px;
     margin: 20px;
-    
 }
 #cardContainer {
     display: grid;
@@ -104,7 +108,7 @@ ul {
 }
 .appointment {
     min-height: 70vh;
-    background-color: rgb(244, 225, 197);
+    background-color: #708090;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -120,9 +124,9 @@ ul {
     padding: 14px;
     font-size: 14px;
     font-weight: 600;
-    color: rgb(109, 4, 4);
+    color: white;
     background-color: transparent;
-    border: 2px solid rgb(109, 4, 4);
+    border: 2px solid white;
 }
 .calender-wrapper {
     display: none;
@@ -193,7 +197,7 @@ ul {
     text-align: center;
 }
 .reviewCard  {
-    background-color: rgb(223, 157, 50);
+    box-shadow: box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
     padding: 10px;
     text-align: left;
     margin: 20px;
@@ -205,7 +209,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    background-color: rgb(52, 27, 3);
+    background-color: #36454f;
     min-height: 200px;
     color: beige;
     

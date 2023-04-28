@@ -124,6 +124,15 @@ document.addEventListener("DOMContentLoaded",() => {
             }
         })
     }
+    
+  
+    function logo(){
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "25px Sedgwick Ave Display";
+        ctx.fillText("Curl Station", 10, 35);
+    }
+    logo();
     showCalender();
     leaveReview();
     displayReviews();
