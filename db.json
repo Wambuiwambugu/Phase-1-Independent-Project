@@ -4,7 +4,7 @@
     {
       "id": 1,
       "name": "Hair Coloring",
-      "image_url": "./src/images/curly-red-fro.jpg",
+      "image_url": "../src/images/curly-red-fro.jpg",
       "description": "Change up your hair color with our expert coloring services.",
       "duration": "2 hours",
       "price": "5000ksh"
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Permanent and temporary locs",
-      "image_url": "./src/images/womens-locs.jpg",
+      "image_url": "../src/images/womens-locs.jpg",
       "description": "Get started on your loc journey, oand maintain your locs. our stylists employ advanced techniques that ensure your locs start and stay keslthy and strong ",
       "duration": "2 hours",
       "price": "4000ksh"
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "name": "Bridal styling",
-      "image_url":"./src/images/afro-wedding.jpg",
+      "image_url":"../src/images/afro-wedding.jpg",
       "description": "We provide bridal styling packages for a bride-to-be snd her bridsl party.book a consultation with us, and tell us your vision for your special day, and we will make it happen.",
       "duration": "2 hours",
       "price": "6000ksh"
@@ -28,7 +28,7 @@
     {
       "id": 4,
       "name": "Facials",
-      "image_url":"./images/curly-red-fro.jpg",
+      "image_url":"../src/images/curly-red-fro.jpg",
       "description": "Relax and rejuvenate your skin with our customized facial treatments.",
       "duration": "1 hour",
       "price": "5000ksh"
@@ -36,7 +36,7 @@
     {
       "id": 5,
       "name": "Makeup for any occasion",
-      "image_url": "./images/curly-red-fro.jpg",
+      "image_url": "../src/images/curly-red-fro.jpg",
       "description": "Our expert makeup artists will give you a flawless look for any occasion.",
       "duration": "1 hour",
       "price": "3000ksh"
@@ -44,7 +44,7 @@
     {
       "id": 6,
       "name": "Nail Care",
-      "image_url":"./images/curly-red-fro.jpg",
+      "image_url":"../src/images/curly-red-fro.jpg",
       "description": "Get perfectly manicured nails with our nail care services.",
       "duration": "1 hour",
       "price": "1500ksh"
@@ -52,7 +52,7 @@
     {
       "id": 7,
       "name": "Massage Therapy",
-      "image_url":"./images/curly-red-fro.jpg",
+      "image_url":"../src/images/curly-red-fro.jpg",
       "description": "Relax and unwind with our customized massage therapy services.",
       "duration": "1 hour",
       "price": "4000ksh"
