@@ -121,10 +121,22 @@ document.addEventListener("DOMContentLoaded",() => {
 
         
         })
+        
     }
-    leaveReview()
-    displayReviews()
-    serviceCard()
+    function showCalender(){
+        document.querySelector('.book').addEventListener('click',() => {
+            if (document.querySelector('.calender-wrapper').style.display === 'none'){
+                document.querySelector('.calender-wrapper').style.display = 'block'
+            }
+            else {
+                document.querySelector('.calender-wrapper').style.display = 'none'
+            }
+        })
+    }
+    showCalender();
+    leaveReview();
+    displayReviews();
+    serviceCard();
     initializebtns();
     loadCalender();
     
