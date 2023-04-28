@@ -38,3 +38,10 @@ The website provides the contact and location details of the salon, including th
 # Conclusion
 
 Overall, this website has been designed to make it easy for customers to view the services offered by the beauty salon, book a service on a given day, leave a review of their experience, and find the contact and location details of the salon. 
+
+# Visit site
+https://wambuiwambugu.github.io/Phase-1-Independent-Project/
+
+# Lisence
+[LISENCE](https://github.com/Wambuiwambugu/Phase-1-Independent-Project/blob/2e23170f39a6b0eb45ebe54220288a405c12a826/LICENSE.md)
+

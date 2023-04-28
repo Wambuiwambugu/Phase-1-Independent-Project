@@ -10,10 +10,10 @@ body {
     font-family: "poppins",sans-serif;
     color: #2b2727;
     line-height: 1.8;
-    font-size: 15px;
+    font-size: 14px;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 700;
+    font-weight: 500;
     color: #1b1a1a;
     line-height: 1.2;
 }
@@ -67,14 +67,17 @@ ul {
 #cardContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    
 }
 .card {
     display: block;
-    max-width: 300px;
-    box-shadow: #92a1d1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     justify-content: center;
     text-align: center;
     padding: 20px;
+}
+.card img {
+    object-fit: contain;
 }
 .appointment {
     background-color: rgb(165, 5, 10);
