@@ -80,9 +80,16 @@ ul {
     justify-content: center;
     text-align: center;
 }
+.services h3 {
+    font-size: 24px;
+    margin: 20px;
+    
+}
 #cardContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: 10px;
     
 }
 .card {
