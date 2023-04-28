@@ -101,6 +101,28 @@ document.addEventListener("DOMContentLoaded",() => {
             })
         })
     }
+    function leaveReview(){
+        document.querySelector('#review').addEventListener('submit',e => {
+            e.preventDefault();
+            let newReview = e.target.new_review.value;
+            let newReviewName = e.target.reviewName.value;
+            let rating = e.target.reviewRating.value
+            let newReviewCard = document.createElement('div');
+            newReviewCard.className = 'reviewCard'
+            newReviewCard.innerHTML = `
+            <h4>${newReviewName}</h4>
+                <div>
+                  <span>Rating: ${rating}</span>
+                </div>
+                <p>${newReview}</p>
+            `
+            document.querySelector('.reviews').append(newReviewCard)
+
+
+        
+        })
+    }
+    leaveReview()
     displayReviews()
     serviceCard()
     initializebtns();
