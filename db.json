@@ -20,7 +20,7 @@
     {
       "id": 3,
       "name": "Bridal styling",
-      "image_url":"./sec/images/afro-wedding.jpg",
+      "image_url":"./src/images/afro-wedding.jpg",
       "description": "We provide bridal styling packages for a bride-to-be snd her bridsl party.book a consultation with us, and tell us your vision for your special day, and we will make it happen.",
       "duration": "2 hours",
       "price": "6000ksh"

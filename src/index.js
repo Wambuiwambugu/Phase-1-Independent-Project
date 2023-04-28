@@ -83,6 +83,25 @@ document.addEventListener("DOMContentLoaded",() => {
         })
 
     }
+    function displayReviews(){
+        fetch('https://my-json-server.typicode.com/Wambuiwambugu/Phase-1-Independent-Project/reviews')
+        .then(res => res.json())
+        .then(data => {
+            data.forEach(review => {
+                let reviewCard = document.createElement('div');
+                reviewCard.className = 'reviewCard';
+                reviewCard.innerHTML = `
+                <h4>${review.name}</h4>
+                <div>
+                  <span>Rating: ${review.rating}</span>
+                </div>
+                <p>${review.comment}</p>
+                `
+                document.querySelector('.reviews').append(reviewCard)
+            })
+        })
+    }
+    displayReviews()
     serviceCard()
     initializebtns();
     loadCalender();
