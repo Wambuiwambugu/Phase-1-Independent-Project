@@ -1,4 +1,6 @@
 # The Curl station
+Author: Wambui Wambugu
+
 This is a website for a beauty salon that offers a variety of services. The website has been designed to make it easy for customers to view the list of services offered, book a service on a given day, and leave a review of their experience. In addition, the website also provides the contact and location details of the salon.
 
 # Services Offered
@@ -42,6 +44,6 @@ Overall, this website has been designed to make it easy for customers to view th
 # Visit site
 https://wambuiwambugu.github.io/Phase-1-Independent-Project/
 
-# License
+# Copyright and lisence
 [LICENSE](https://github.com/Wambuiwambugu/Phase-1-Independent-Project/blob/2e23170f39a6b0eb45ebe54220288a405c12a826/LICENSE.md)
 
