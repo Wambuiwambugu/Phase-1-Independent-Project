@@ -11,6 +11,7 @@ body {
     color: #2b2727;
     line-height: 1.8;
     font-size: 14px;
+    background-color: rgb(253, 249, 244);
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
@@ -25,7 +26,7 @@ ul {
     list-style: none;
 }
 .navbar {
-    background-color: black;
+    background-color: rgb(244, 225, 197);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,27 +38,42 @@ ul {
     display: flex;
 }
 .nav-items .nav-item {
-    color: grey;
+    color: rgb(109, 4, 4);
     transition: all 0.4s ease;
     margin-left: 24px;
 }
 .nav-items .nav-item:hover {
-    color: sienna;
+    color:  rgb(243, 176, 7);
 }
 .container {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.img-studio {
-    width: 900px;
-    height: 300px;
-    object-fit: contain;
+.title {
+    
+    min-height: 80vh;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 0;
+    background-color: rgb(244, 225, 197);
+    background-image: url('./images/studio2.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
-.container h1 {
-    font-size: 54px;
+.title h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgb(109, 4, 4);
+}
+.title p {
+    font-size: 24px;
+    color: rgb(109, 4, 4);
 }
 .services {
     display: block;
@@ -80,17 +96,26 @@ ul {
     object-fit: contain;
 }
 .appointment {
-    background-color: rgb(165, 5, 10);
-    display: flexbox;
+    min-height: 70vh;
+    background-color: rgb(244, 225, 197);
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 70px 0;
     margin: auto;
     width: auto;
+}
+#book-now p {
+    color: rgb(11, 11, 9);
+    font-size: 24px;
+}
+.book {
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(109, 4, 4);
+    background-color: transparent;
+    border: 2px solid rgb(109, 4, 4);
 }
 .calender-wrapper {
     display: none;
