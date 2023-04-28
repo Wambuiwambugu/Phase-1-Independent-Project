@@ -42,6 +42,6 @@ Overall, this website has been designed to make it easy for customers to view th
 # Visit site
 https://wambuiwambugu.github.io/Phase-1-Independent-Project/
 
-# Lisence
-[LISENCE](https://github.com/Wambuiwambugu/Phase-1-Independent-Project/blob/2e23170f39a6b0eb45ebe54220288a405c12a826/LICENSE.md)
+# License
+[LICENSE](https://github.com/Wambuiwambugu/Phase-1-Independent-Project/blob/2e23170f39a6b0eb45ebe54220288a405c12a826/LICENSE.md)
 
