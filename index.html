@@ -77,14 +77,31 @@
             </div>
             <div id="calender"></div>
         </div>
-        <div id="newEventModal">
-            <h2>Book Appointment</h2>
-            
-            <input id="eventTitleInput" placeholder="Event Title"/>
-
-            <button id="saveButton">Save</button>
-            <button id="cancelButton">Cancel</button>
+        <div class="eventModalWrapper">
+            <div id="newEventModal">
+                <h2>Book Appointment</h2>
+                <form action="">
+                    <label for="selection">Select a service</label>
+                    <br>
+                    <select name="salonservice" id="choice" required>
+                        <option value="haircuts">Haircuts and styling</option>
+                        <option value="coloring">Hair colorong</option>
+                        <option value="locs">permanent and temporary locs</option>
+                        <option value="bridal">Bridal Styling</option>
+                        <option value="facials">Facials</option>
+                        <option value="makeup">Makeup</option>
+                        <option value="nailcare">Nail care</option>
+                        <option value="massage">Massage therapy</option>
+                    </select>
+                    <br>
+                    <input id="phoneNumber" placeholder="phone number"/>
+                    <br>
+                    <button id="saveButton">Book</button>
+                    <button id="cancelButton">Cancel</button>
+                </form>
+            </div>
         </div>
+        
         <div id="modalBackDrop"></div>
     </section>
     <!--leave a review-->

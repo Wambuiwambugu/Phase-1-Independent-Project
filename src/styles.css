@@ -190,8 +190,68 @@ ul {
     flex-direction: column;
     justify-content: space-between;
 }
+.eventModalWrapper {
+    opacity: 0; 
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
 #newEventModal {
-    display: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 50px;
+    
+}
+#choice {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#phoneNumber {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#saveButton {
+    padding: 5px 20px;
+    background-color: #046e14;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+#saveButton:hover {
+    background-color: #117a21;
+}
+
+#cancelButton {
+    padding: 5px 15px;
+    background-color: #cc1212;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+#cancelButton {
+    background-color: #e72f2f;
 }
 #review-form {
     display: block;

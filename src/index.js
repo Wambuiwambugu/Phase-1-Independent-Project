@@ -2,12 +2,28 @@ document.addEventListener("DOMContentLoaded",() => {
     const baseUrl = 'https://my-json-server.typicode.com/Wambuiwambugu/Phase-1-Independent-Project/services'
 
     // create calender
-    let nav = 0
-    let booked = null
+    let nav = 0;
+    let clicked = null;
+    let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
+
+    const newEventModal = document.querySelector('.eventModalWrapper')
     const calender = document.querySelector('#calender');
     console.log(calender)
     const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
+    function openModal(date){
+        clicked = date;
+
+        const eventForDay = events.find(e => e.date === clicked);
+
+        if (eventForDay){
+            console.log('Event already exists')
+        }
+        else {
+            newEventModal.style.opacity = '1';
+            newEventModal.style.pointerEvents = 'auto'
+        }
+    }
     function loadCalender(){
         const dt = new Date();
         console.log(dt);
@@ -39,7 +55,7 @@ document.addEventListener("DOMContentLoaded",() => {
             daySquare.classList.add('day');
             if (i > paddingDays){
                 daySquare.innerText = i - paddingDays;
-                daySquare.addEventListener('click', () => console.log(clicked));
+                daySquare.addEventListener('click', () => openModal(`${month + 1}/${i - paddingDays}/${year}`));
             }
             else{
                 daySquare.classList.add('padding');
@@ -49,7 +65,7 @@ document.addEventListener("DOMContentLoaded",() => {
 
 
     }
-    function initializebtns(){
+    function initializebtns(){-
         document.querySelector('#nextbutton').addEventListener('click',() => {
             nav++;
             loadCalender();
@@ -108,7 +124,7 @@ document.addEventListener("DOMContentLoaded",() => {
                 <p>${newReview}</p>
             `
             document.querySelector('.reviews').append(newReviewCard)
-            
+
         })
         
     }
