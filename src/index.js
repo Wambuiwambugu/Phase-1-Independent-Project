@@ -20,8 +20,14 @@ document.addEventListener("DOMContentLoaded",() => {
             console.log('Event already exists')
         }
         else {
-            newEventModal.style.opacity = '1';
-            newEventModal.style.pointerEvents = 'auto'
+            newEventModal.style.display = 'flex';
+            
+            document.querySelector('#cancelButton').addEventListener('click',(e) => {
+                newEventModal.style.display = 'none';
+                clicked = null;
+
+            })
+            
         }
     }
     function loadCalender(){
@@ -74,6 +80,7 @@ document.addEventListener("DOMContentLoaded",() => {
         //    nav--;
         //    loadCalender();
         //})
+        
     }
     //create services card
     function renderOneService(service){
