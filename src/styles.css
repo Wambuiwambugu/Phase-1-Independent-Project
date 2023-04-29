@@ -127,6 +127,12 @@ ul {
     color: white;
     background-color: transparent;
     border: 2px solid white;
+    border-radius: 5px;
+}
+.book:hover{
+    color: #36454f;
+    background-color: white;
+    border: 2px solid #36454f;
 }
 .calender-wrapper {
     display: none;
@@ -199,6 +205,12 @@ ul {
     color: #708090;
     background-color: transparent;
     border: 2px solid #708090;
+    border-radius: 5px;
+}
+#reviewsubmit:hover {
+    color: white;
+    background-color: #708090;
+    border: 2px solid #36454f;
 }
 
 .review-us {

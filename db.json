@@ -28,7 +28,7 @@
     {
       "id": 4,
       "name": "Facials",
-      "image_url":"../src/images/facial.jpg",
+      "image_url":"./src/images/facial.jpg",
       "description": "Relax and rejuvenate your skin with our customized facial treatments.",
       "duration": "1 hour",
       "price": "5000ksh"
@@ -36,7 +36,7 @@
     {
       "id": 5,
       "name": "Makeup for any occasion",
-      "image_url": "../src/images/makeup.jpg",
+      "image_url": "./src/images/makeup.jpg",
       "description": "Our expert makeup artists will give you a flawless look for any occasion.",
       "duration": "1 hour",
       "price": "3000ksh"
@@ -44,7 +44,7 @@
     {
       "id": 6,
       "name": "Nail Care",
-      "image_url":"../src/images/afro-nails.jpg",
+      "image_url":"./src/images/afro-nails.jpg",
       "description": "Get perfectly manicured nails with our nail care services.",
       "duration": "1 hour",
       "price": "1500ksh"
@@ -52,7 +52,7 @@
     {
       "id": 7,
       "name": "Massage Therapy",
-      "image_url":"../src/images/massage.jpg",
+      "image_url":"./src/images/massage.jpg",
       "description": "Relax and unwind with our customized massage therapy services.",
       "duration": "1 hour",
       "price": "4000ksh"

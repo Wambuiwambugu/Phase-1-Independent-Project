@@ -108,9 +108,7 @@ document.addEventListener("DOMContentLoaded",() => {
                 <p>${newReview}</p>
             `
             document.querySelector('.reviews').append(newReviewCard)
-
-
-        
+            
         })
         
     }
