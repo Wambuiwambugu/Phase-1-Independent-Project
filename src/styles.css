@@ -184,20 +184,34 @@ ul {
     flex-direction: column;
     justify-content: space-between;
 }
+#newEventModal {
+    display: none;
+}
 #review-form {
     display: block;
     justify-content: center;
     text-align: center;
 }
-
+#reviewsubmit {
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #708090;
+    background-color: transparent;
+    border: 2px solid #708090;
+}
 
 .review-us {
     display: block;
     justify-content: center;
     text-align: center;
 }
+.review-us h2 {
+    margin: 10px;
+    font-size: 20px;
+}
 .reviewCard  {
-    box-shadow: box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
     padding: 10px;
     text-align: left;
     margin: 20px;
@@ -214,8 +228,19 @@ ul {
     color: beige;
     
 }
+.footer div {
+    padding: 20px;
+    text-align: left;
+}
 .footer h3{
     color: beige;
+    text-transform: uppercase;
+}
+.link {
+    color: beige;
+}
+.link:hover {
+    color: #011c2e;
 }
 
 /**/
