@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded",() => {
     let clicked = null;
     let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
 
-    const newEventModal = document.querySelector('.eventModalWrapper')
+    const newEventModal = document.querySelector('.eventModalWrapper');
+    const phoneNumberInput = document.querySelector('#phoneNumber');
+    console.log(phoneNumberInput)
     const calender = document.querySelector('#calender');
     console.log(calender)
     const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
@@ -22,11 +24,11 @@ document.addEventListener("DOMContentLoaded",() => {
         else {
             newEventModal.style.display = 'flex';
             
-            document.querySelector('#cancelButton').addEventListener('click',(e) => {
-                newEventModal.style.display = 'none';
-                clicked = null;
+            // document.querySelector('#cancelButton').addEventListener('click',(e) => {
+            //     newEventModal.style.display = 'none';
+            //     clicked = null;
 
-            })
+            // })
             
         }
     }
@@ -71,7 +73,7 @@ document.addEventListener("DOMContentLoaded",() => {
 
 
     }
-    function initializebtns(){-
+    function initializebtns(){
         document.querySelector('#nextbutton').addEventListener('click',() => {
             nav++;
             loadCalender();
@@ -80,6 +82,13 @@ document.addEventListener("DOMContentLoaded",() => {
         //    nav--;
         //    loadCalender();
         //})
+        document.querySelector('#cancelButton').addEventListener('click',(e) => {
+            newEventModal.style.display = 'none';
+            phoneNumberInput.value = ''
+            clicked = null;
+            loadCalender()
+
+        })
         
     }
     //create services card

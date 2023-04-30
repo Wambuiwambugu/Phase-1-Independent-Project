@@ -94,8 +94,10 @@
                         <option value="massage">Massage therapy</option>
                     </select>
                     <br>
-                    <input id="phoneNumber" placeholder="phone number"/>
+                    <input type="tel" id="phoneNumber" placeholder="phone number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}-[0-9]{3}" required/>
                     <br>
+                    <small>Format: 254-0700-000-000</small>
+                    <br><br>
                     <button id="saveButton" type="submit">Book</button>
                     <button id="cancelButton">Cancel</button>
                 </form>
