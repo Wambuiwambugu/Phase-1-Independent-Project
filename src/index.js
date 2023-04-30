@@ -139,8 +139,8 @@ document.addEventListener("DOMContentLoaded",() => {
             
                 <p>${newReview}</p>
             `
-            document.querySelector('.reviews').append(newReviewCard)
-
+            document.querySelector('.reviews').append(newReviewCard);
+            e.target.new_review.value = '';
         })
         
     }
